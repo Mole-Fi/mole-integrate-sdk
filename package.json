@@ -1,0 +1,30 @@
+{
+    "comments": "For fetch Mole data SDK", 
+    "name": "mole-integrate-sdk",
+    "version": "1.0.0",
+    "description": "For fetch Mole data SDK",
+    "scripts": {
+      "start": "node app.js"  
+    },
+    "keywords": [],
+    "author": "Mole team: https://mole.fi/",
+    "license": "ISC",
+    "dependencies": {
+      "@cetusprotocol/cetus-sui-clmm-sdk": "5.1.7",
+      "@mysten/bcs": "^0.11.1",
+      "@mysten/sui.js": "0.54.1",
+      "bignumber.js": "^9.0.1",
+      "crypto-js": "^4.1.1",
+      "dayjs": "^1.9.3",
+      "node-fetch": "^2.6.1",
+      "node-schedule": "^2.0.0",
+      "bn.js": "^5.2.1"
+    },
+    "devDependencies": {
+      "chai": "^4.3.6",
+      "mocha": "^9.2.2",
+      "nyc": "^15.1.0",
+      "source-map-support": "^0.5.21"
+    }
+  }
+  
